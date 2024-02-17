@@ -11,7 +11,7 @@
 - name: Declare variable in another file
   hosts: all
   connection: local
-  vars_file:
+  var_file:
     - var.yml
   tasks:
     - name: Access a Variable
